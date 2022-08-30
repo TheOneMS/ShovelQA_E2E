@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ShovelQA_Pro>
+	<RunSettings>
+		<!--Configurations & General Settings-->
+		<SiteUrl1>https://shovel.apps.intellimine.dev/</SiteUrl1>
+		<!--<SiteUrl>http://127.0.0.1:8001/</SiteUrl>-->
+		<SiteUrl>http://127.0.0.1/</SiteUrl>
+		<DriverPath>C:/Users/arasheed/Documents/my-app/Project/ShovelQA_Pro/drivers/</DriverPath>
+		<UserName>1</UserName>
+		<PassWord>1</PassWord>		
+		<BaseSS>C:/Users/arasheed/Documents/my-app/Project/ShovelQA_Pro/BaseSS</BaseSS>
+		<ActualSS>C:/Users/arasheed/Documents/my-app/Project/ShovelQA_Pro/ActualSS</ActualSS>
+		<Screenshots>C:/Users/arasheed/Documents/my-app/Project/ShovelQA_Pro/Screenshots</Screenshots>
+		<TestDataFile>C:/Users/arasheed/Documents/my-app/Project/ShovelQA_Pro/Config/SearchTestdata.xlsx</TestDataFile>
+		<InvalidEmail>somedomain</InvalidEmail>
+		<IncorrectPwd>test</IncorrectPwd>
+		<!--<AccountNotExists>msabd@gmail.com</AccountNotExists>
+		<GmailNO>testqauser62@gmail.com</GmailNO>
+		<OutlookIns>testqauser63@outlook.com</OutlookIns>-->
+		
+		<!--Excel Rows and Column Inputs-->
+		<PerfMet>10</PerfMet>
+		<TestStat>11</TestStat>
+		<!--Available Flags Regression, Unit, integration, E2E-->
+		<TestType>Unit</TestType>
+		<BuildName>Test</BuildName>
+		<!--Available Flags Y,N-->
+		<IsLog>Y</IsLog>
+		<LogPath>C:/Users/arasheed/Documents/my-app/Project/ShovelQA_Pro/Utils</LogPath>
+	</RunSettings>
+</ShovelQA_Pro>
